@@ -1,0 +1,112 @@
+body {
+    background-color: #080710;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .timetable-container {
+    background-color: rgba(255, 255, 255, 0.13); 
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(15px); 
+    border: 2px solid rgba(255, 255, 255, 0.1); 
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-title {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .action-button {
+    padding: 10px 20px;
+    background-color: #23a2f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .table-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .timetable-table {
+    width: 80%;
+    max-width: 900px;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.13); 
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6); 
+  }
+  
+  .timetable-table th,
+  .timetable-table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .timetable-table th {
+    background-color: #23a2f6;
+    color: #fff;
+  }
+  
+  .timetable-table td {
+    background-color: rgba(255, 255, 255, 0.13); 
+    color: #fff;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #23a2f6;
+    color: #fff;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: #fff;
+  }
+  

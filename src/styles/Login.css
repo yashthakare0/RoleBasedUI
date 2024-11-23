@@ -1,0 +1,133 @@
+.login-container {
+    background-color: #080710;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .circle-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 430px;
+    height: 520px;
+    overflow: hidden;
+    z-index: 0;
+  }
+  
+  .circle {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  
+  .circle-left {
+    background: linear-gradient(135deg, #1845ad, #23a2f6);
+    left: -100px;
+    top: -100px;
+  }
+  
+  .circle-right {
+    background: linear-gradient(135deg, #ff512f, #f09819);
+    right: -80px;
+    bottom: -80px;
+  }
+  
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    max-width: 400px;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .form-title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+
+  .input-label {
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    outline: none;
+  }
+  
+  .input-field::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .role-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .role-label {
+    color: #ffffff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .role-label input {
+    margin-right: 8px;
+  }
+  
+
+  .login-button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #080710;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+
+  @media (max-width: 768px) {
+    .login-form {
+      padding: 20px;
+      width: 90%;
+    }
+  
+    .circle {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
