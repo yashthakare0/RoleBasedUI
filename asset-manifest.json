@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.adf88a6b.css",
-    "main.js": "/static/js/main.8e352742.js",
-    "static/js/453.7f390a24.chunk.js": "/static/js/453.7f390a24.chunk.js",
-    "index.html": "/index.html",
-    "main.adf88a6b.css.map": "/static/css/main.adf88a6b.css.map",
-    "main.8e352742.js.map": "/static/js/main.8e352742.js.map",
-    "453.7f390a24.chunk.js.map": "/static/js/453.7f390a24.chunk.js.map"
+    "main.css": "/RoleBasedUI/static/css/main.adf88a6b.css",
+    "main.js": "/RoleBasedUI/static/js/main.3ef1674d.js",
+    "static/js/453.7f390a24.chunk.js": "/RoleBasedUI/static/js/453.7f390a24.chunk.js",
+    "index.html": "/RoleBasedUI/index.html",
+    "main.adf88a6b.css.map": "/RoleBasedUI/static/css/main.adf88a6b.css.map",
+    "main.3ef1674d.js.map": "/RoleBasedUI/static/js/main.3ef1674d.js.map",
+    "453.7f390a24.chunk.js.map": "/RoleBasedUI/static/js/453.7f390a24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adf88a6b.css",
-    "static/js/main.8e352742.js"
+    "static/js/main.3ef1674d.js"
   ]
 }
