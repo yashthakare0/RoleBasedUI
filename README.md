@@ -3,60 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RoleBasedUI - Timetable</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    header, footer {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 1rem 0;
-    }
-    section {
-      margin: 20px auto;
-      max-width: 900px;
-      padding: 20px;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-    h1, h2 {
-      color: #333;
-    }
-    ul, ol {
-      margin: 10px 0;
-      padding-left: 20px;
-    }
-    pre {
-      background: #f4f4f4;
-      padding: 10px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    img {
-      display: block;
-      margin: 20px auto;
-      max-width: 100%;
-      height: auto;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-    }
-  </style>
 </head>
 <body>
   <header>
