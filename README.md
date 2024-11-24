@@ -93,9 +93,9 @@ We welcome contributions to make this project even better! Follow these steps to
 ________________________________________
 Contact
 If you have any questions or feedback, feel free to reach out:
-•	Author: [Your Name]
-•	Email: [Your Email Address]
-•	GitHub: [Your GitHub Profile URL]
+•	Author:Yash Thakare
+•	Email: yashthakare56789@gmail.com 
+•	GitHub:https://github.com/yashthakare0
 ________________________________________
 License
 This project is licensed under the MIT License. Feel free to use it for educational purposes.
